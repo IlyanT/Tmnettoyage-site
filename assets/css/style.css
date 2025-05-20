@@ -171,7 +171,7 @@ button, a { transition: var(--transition); }
 .btn {
   position: relative;
   background: black;
-  color: var(--white);
+  color: white;
   font-family: var(--ff-poppins);
   font-size: var(--fs-5);
   text-transform: var(--text-transform, capitalize);
@@ -1642,5 +1642,13 @@ button, a { transition: var(--transition); }
   .footer { --fs-5: 1rem; }
 
   .footer-link-box { flex-basis: 700px; }
+
+  .small-btn {
+  padding: 10px 20px;
+  font-size: 1.1rem; /* tu peux réduire si besoin */
+  display: inline-block; /* pour éviter qu'il prenne toute la ligne */
+  width: auto;
+}
+
 
 }
